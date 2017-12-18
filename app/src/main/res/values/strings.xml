@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AndroidComponentTut</string>
+    <string name="item_name">Item Name</string>
+    <string name="person_name">Person Name</string>
+    <string name="set_date">Set Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_projects">Loading projects</string>
+    <string name="projects_list">Project list</string>
+    <string name="project_name">Name of the project</string>
+    <string name="google_github_projects">Google GitHub Projects</string>
+    <string name="project_list">Project List</string>
+    <string name="languages">Languages: %s</string>
+    <string name="watchers">Watchers: %s</string>
+    <string name="openIssues">Open Issues: %s</string>
+    <string name="created_at">Created At: %s</string>
+    <string name="updated_at">Updated At: %s</string>
+    <string name="clone_url">Clone URL: %s</string>
+    <string name="project_language">Project Language</string>
+    <string name="project_watchers">Project Watchers</string>
+    <string name="project_description">Project Description</string>
+    <string name="open_issues">Open Issues</string>
+    <string name="loading_project">Loading Project</string>
+    <string name="open_github">Open Github</string>
+    <string name="username">Enter your github username</string>
+    <string name="save">Save</string>
+    <string name="url">http://www.gettyimages.com/gi-resources/images/Embed/new/embed2.jpg</string>
+    <string name="open_custom_setter">Custom setter</string>
+    <string name="name">Gideon Nguyen</string>
+</resources>

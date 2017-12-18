@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="mainActivity"
+            type="com.gideondev.androidcomponenttut.BorrowProject.main.MainActivity" />
+        </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".BorrowProject.main.MainActivity">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+        <Button
+            android:id="@+id/open_github"
+            android:onClick="@{()->mainActivity.OpenGithub()}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/recyclerview"
+            android:text="@string/open_github"/>
+        <Button
+            android:id="@+id/open_custom_setter"
+            android:onClick="@{()->mainActivity.OpenCustom()}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/open_github"
+            android:text="@string/open_custom_setter"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:onClick="@{() -> mainActivity.OpenAddItemScreen()}"
+            android:src="@android:drawable/ic_dialog_email"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</layout>
+
